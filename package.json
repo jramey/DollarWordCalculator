@@ -1,0 +1,27 @@
+{
+  "name": "DollarWordCalculator",
+  "version": "0.0.0",
+  "description": "DollarWordCalculator ====================",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevPo/DollarWordCalculator.git"
+  },
+  "author": "Kevin Poston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevPo/DollarWordCalculator/issues"
+  },
+  "homepage": "https://github.com/kevPo/DollarWordCalculator",
+  "devDependencies": {
+    "karma": "^0.12.17",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.1.5"
+  }
+}

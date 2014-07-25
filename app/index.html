@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Word Calculator</title>
+	<link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body ng-app="myApp">
+	<h1>$ Word Calculator</h1>
+	<div class="main-div" ng-controller="MainCtrl">
+		<input type="text" ng-model="word" ng-change="wordChange()"/>
+		<div class="word-value">{{wordValue}}</div>
+		
+		<script src="lib/angular.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/wordCalculator.js"></script>
+	</div>
+
+</body>
+</html>

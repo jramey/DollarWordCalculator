@@ -1,0 +1,31 @@
+body {
+	background-color:#485A75;
+
+}
+
+h1 {
+	font-family: 'Sansita One', cursive;
+	font-size: 72px;
+	color: #8AB50D;
+	text-align: center;
+}
+
+input {
+	font-family: 'Sansita One', cursive;
+	font-size: 54px;
+	text-align: center;
+
+}
+
+.main-div {
+	text-align: center;
+}
+
+.word-value {
+	margin-top: 250px;
+	vertical-align: bottom;
+	font-family: 'Sansita One', cursive;
+	font-size: 150px;
+	text-align: center;
+	color: #360A04;
+}
