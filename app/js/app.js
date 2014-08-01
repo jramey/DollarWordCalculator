@@ -7,6 +7,5 @@ app.controller("MainCtrl", function($scope, wordCalculator){
 	$scope.wordChange = function() {
 		$scope.wordValue = wordCalculator.calculate($scope.word);
 	};
-
-	
 });
+

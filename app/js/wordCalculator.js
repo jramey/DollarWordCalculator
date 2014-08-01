@@ -58,6 +58,6 @@
 	};
 
 	var module = angular.module("myApp");
-    module.service("wordCalculator", wordCalculator);
+    module.factory("wordCalculator", wordCalculator);
 
 }());
