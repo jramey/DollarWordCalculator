@@ -22,10 +22,22 @@ input {
 }
 
 .word-value {
-	margin-top: 250px;
+	margin-top: 0px;
 	vertical-align: bottom;
 	font-family: 'Sansita One', cursive;
 	font-size: 150px;
 	text-align: center;
 
+}
+
+.money {
+	color: #8AB50D;
+}
+
+.dollarWordsHeader{
+	font-size: 75px;
+}
+
+.dollarWord{
+	font-size: 60px;
 }

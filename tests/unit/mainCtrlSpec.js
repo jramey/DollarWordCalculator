@@ -23,7 +23,22 @@ describe('Controller: MainCtrl', function() {
         }));
 
     it('should call wordCalculator calculate method', function () {
-        // delete this and add test code
-        expect(true).toBe(true);
+        spyOn(wordCalculatorMock, "calculate");
+        scope.wordChange();
+        expect(wordCalculatorMock.calculate).toHaveBeenCalled();
 	});
+
+    it('dollar words are kept', function () {
+        wordCalculatorMock.calculate = function(word) { return "$1.00"; };
+        scope.word = "buzzy";
+        scope.wordChange();
+        expect(scope.bank).toEqual(["buzzy"]);
+    });
+
+    it('words that are not a dollar are not kept', function () {
+        wordCalculatorMock.calculate = function(word) { return "$1.02"; };
+        scope.word = "buzzy";
+        scope.wordChange();
+        expect(scope.bank).toEqual([ ]);
+    });
 });
